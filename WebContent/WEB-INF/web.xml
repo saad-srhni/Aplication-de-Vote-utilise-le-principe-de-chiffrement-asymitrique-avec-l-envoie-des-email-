@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ApplicationVote</display-name>
+  <welcome-file-list>
+    <welcome-file>votant.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Votant</display-name>
+    <servlet-name>Votant</servlet-name>
+    <servlet-class>com.votant.app.Votant</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Votant</servlet-name>
+    <url-pattern>/Votant</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Co</display-name>
+    <servlet-name>Co</servlet-name>
+    <servlet-class>com.co.app.Co</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Co</servlet-name>
+    <url-pattern>/Co</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>De</display-name>
+    <servlet-name>De</servlet-name>
+    <servlet-class>com.de.app.De</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>De</servlet-name>
+    <url-pattern>/De</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Votants</display-name>
+    <servlet-name>Votants</servlet-name>
+    <servlet-class>com.votant.app.Votant</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Votants</servlet-name>
+    <url-pattern>/Votants</url-pattern>
+  </servlet-mapping>
+</web-app>
