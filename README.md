@@ -1,5 +1,5 @@
 # Aplication-de-Vote-utilise-le-principe-de-chiffrement-asymitrique-avec-l-envoie-des-email-
-application de vote utilise le principe de chiffrement asymitrique
+application de vote utilise le principe de chiffrement asymétrique
 
 Dans une entreprise multinationale, son PDG (président-directeur général) désire organiser un vote à distance électronique entre ces personnelles pour élire un nouveau responsable dans son siège. Pour cela, un ensemble de n correspondant ou personnels désirent voter un représentant parmi m candidats en utilisant la messagerie électronique sécurisée (OpenPGP).
 
