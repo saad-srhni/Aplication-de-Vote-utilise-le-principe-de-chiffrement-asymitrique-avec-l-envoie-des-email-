@@ -27,7 +27,6 @@ public class SendEncryptedMail {
 		send.Send(SubjectType.votantres.toString()+"co",";;mostapha;;", "gl.vontant@gmail.com", "985632votant","gl.application.co@gmail.com", "privkeyvotant.asc", "pubkeyde.asc");
 		send.Send(SubjectType.votantiden.toString()+"de",";;1223654;;saad;;sarhani;;05/10/1996;;", "gl.vontant@gmail.com", "985632votant","gl.application.de@gmail.com", "privkeyvotant.asc", "pubkeyde.asc");
 		send.Send(SubjectType.votantres.toString()+"de",";;mostapha;;", "gl.vontant@gmail.com", "985632votant","gl.application.de@gmail.com", "privkeyvotant.asc", "pubkeyde.asc");
-
 	}	
 	*/
 	
@@ -65,8 +64,8 @@ public class SendEncryptedMail {
 	         // PGP encrypt here the message
 	         PGPMailLib mailUtil = new PGPMailLib();
 	         
-	         String publicKeyFileName = "C:/Users/SAAD/Desktop/ApplicationVote/src/openpgp/DataFiles/"+publicKey;
-	         String privateKeyFileName = "C:/Users/SAAD/Desktop/ApplicationVote/src/openpgp/DataFiles/"+privateKey;
+	         String publicKeyFileName = "C:/Users/saad1/Desktop/project-chffrement/src/openpgp/DataFiles/"+publicKey;
+	         String privateKeyFileName = "C:/Users/saad1/Desktop/project-chffrement/src/openpgp/DataFiles/"+privateKey;
 	         String privateKeyPassword = "985632";
 	        //had l password dyal les keys bach ykono sucrisé mat9isohomch
 		      MimeMessage pgpMessage = mailUtil.signAndEncryptMessage(session, message, privateKeyFileName, privateKeyPassword, publicKeyFileName);

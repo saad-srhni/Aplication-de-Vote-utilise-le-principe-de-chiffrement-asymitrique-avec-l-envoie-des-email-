@@ -42,7 +42,7 @@ public class De extends HttpServlet {
 
 		try { // il faut active imap f gmail
 			rec.receiveEmail("imap.gmail.com", "gl.application.de@gmail.com", "985632de",
-					"C:/Users/SAAD/Desktop/ApplicationVote/msgstore/de", 4);
+					"C:/Users/saad1/Desktop/project-chffrement/msgstore/de", 4);
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -66,13 +66,13 @@ public class De extends HttpServlet {
 				System.out.println("hhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah");
 				ReadFile readfile = new ReadFile();
 				String msg1 = readfile
-						.readfile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/de/votantidendcryde");
+						.readfile("C:/Users/saad1/Desktop/project-chffrement/msgstore/de/votantidendcryde");
 				String msg2 = readfile
-						.readfile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/de/votantresdcryde");
+						.readfile("C:/Users/saad1/Desktop/project-chffrement/msgstore/de/votantresdcryde");
 				String msg3 = readfile
-						.readfile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/de/votantidendcryco");
+						.readfile("C:/Users/saad1/Desktop/project-chffrement/msgstore/de/votantidendcryco");
 				String msg4 = readfile
-						.readfile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/de/votantresdcryco2");
+						.readfile("C:/Users/saad1/Desktop/project-chffrement/msgstore/de/votantresdcryco2");
 				String donne1[] = msg1.split(";;");
 				String donne2[] = msg2.split(";;");
 				String donne3[] = msg3.split(";;");

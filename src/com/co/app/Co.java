@@ -43,7 +43,7 @@ public class Co extends HttpServlet {
 		FonctionBd bd = new FonctionBd();
 		try {
 			rec.receiveEmail("imap.gmail.com", "gl.application.co@gmail.com", "985632co",
-					"C:/Users/SAAD/Desktop/ApplicationVote/msgstore/co", 2);
+					"C:/Users/saad1/Desktop/project-chffrement/msgstore/co", 2);
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -55,8 +55,8 @@ public class Co extends HttpServlet {
 
 				ReadFile readfile = new ReadFile();
 				String msg1 = readfile
-						.readfile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/co/votantidendcryco");
-				String msg2 = readfile.readfile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/co/votantresco");
+						.readfile("C:/Users/saad1/Desktop/project-chffrement/msgstore/co/votantidendcryco");
+				String msg2 = readfile.readfile("C:/Users/saad1/Desktop/project-chffrement/msgstore/co/votantresco");
 				String nom = null, prenom = null, datenaissance = null, identification = null, bulltinvote = null;
 				String donne[] = msg1.split(";;");
 				identification = donne[1];

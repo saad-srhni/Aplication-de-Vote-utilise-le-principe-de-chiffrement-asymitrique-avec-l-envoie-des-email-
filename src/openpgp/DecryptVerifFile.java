@@ -7,16 +7,16 @@ public class DecryptVerifFile {
 		// initialize the library instance
 		PGPLib pgp = new PGPLib();
 		//bdlo had les lien
-		String privateKeyFile = "C:/Users/SAAD/Desktop/ApplicationVote/src/openpgp/DataFiles/"+privkey;
+		String privateKeyFile = "C:/Users/saad1/Desktop/project-chffrement/src/openpgp/DataFiles/"+privkey;
 		String privateKeyPass = "985632";
 
 		@SuppressWarnings("deprecation")
 		boolean validSignature = 
-			pgp.decryptAndVerifyFile("C:/Users/SAAD/Desktop/ApplicationVote/msgstore/"+filedcry, 
+			pgp.decryptAndVerifyFile("C:/Users/saad1/Desktop/project-chffrement/msgstore/"+filedcry, 
 									privateKeyFile, 
 									privateKeyPass, 
-									"C:/Users/SAAD/Desktop/ApplicationVote/src/openpgp/DataFiles/"+pubkey, 
-									"C:/Users/SAAD/Desktop/ApplicationVote/msgstore/"+output);
+									"C:/Users/saad1/Desktop/project-chffrement/src/openpgp/DataFiles/"+pubkey, 
+									"C:/Users/saad1/Desktop/project-chffrement/msgstore/"+output);
 		if (validSignature) {
 			return true;
 		} else {
