@@ -13,13 +13,9 @@ Un centre de dépouillement DE : Ce centre reçoit le message de CO et le messag
 
 Outils: JAVA EE / HTML /CSS /OPENPGP(CHIFFREMENT ASYMITRIQUE) /MYSQL / GMAIL
 
-Pour excuter le projet il faut changer les liens qui ce trouve dans le derectory:
-Co.java 
-De.java
-SendEncryptedMail.java
-openpgp.DecryptVerifFile.java
+Pour exécuter le projet il faut changer les liens qui se trouve dans le derectory: Co.java De.java SendEncryptedMail.java openpgp.DecryptVerifFile.java
 
-Cree une base de donnée mysql :cryptage  , et import le fichier cryptage.sql.
+Créer une base de donnée mysql :cryptage  , et import le fichier cryptage.sql.
 
 
 Interface pour le votant:
