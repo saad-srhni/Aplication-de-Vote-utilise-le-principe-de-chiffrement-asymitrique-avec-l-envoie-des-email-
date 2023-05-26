@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>centre de dépouillement DE</title>
+<title>Centre de depouillement de vote</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <script
@@ -21,7 +21,7 @@
 		<a class="navbar-brand" href="#"> <img
 			src="image.jpeg"
 			width="30" height="30" class="d-inline-block align-top" alt="">
-			centre de dépouillement DE
+			centre de dï¿½pouillement DE
 		</a>
 	</nav>
 	<div class="container">
